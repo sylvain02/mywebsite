@@ -1,3 +1,6 @@
+global:
+  language: "🇫🇷"
+
 article:
   anchor_label: "Ancre"
   date: "{{ .Date }}"
@@ -15,6 +18,7 @@ article:
   part_of_series: "Cet article fait partie d'une série."
   part: "Partie"
   this_article: "Cet article"
+  related_articles: "Articles connexes"
 
 author:
   byline_title: "Auteur"
@@ -26,7 +30,7 @@ code:
 error:
   404_title: "Cette page n'existe pas :confused:"
   404_error: "Erreur 404"
-  404_description: "Il semble que la page que vous cherchiez n'existe pas."
+  404_description: "Il semble que la page que vous cherchez n'existe pas."
 
 footer:
   dark_appearance: "Passer au thème sombre"
@@ -58,4 +62,4 @@ shortcode:
   recent_articles: "Articles récents"
 
 recent:
-  show_more: "Montre Plus"
+  show_more: "Voir plus"
